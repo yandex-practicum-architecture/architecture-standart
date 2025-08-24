@@ -1,0 +1,7 @@
+# не конвертировать drawio (они XML, но иногда важна байтовая идентичность)
+*.drawio -text
+
+# бинарные форматы
+*.png binary
+*.jpg binary
+*.pdf binary
